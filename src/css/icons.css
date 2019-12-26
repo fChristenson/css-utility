@@ -7,3 +7,37 @@
   border-radius: 2px;
   padding: 4px;
 }
+
+.icon-blue2 {
+  transition: background-color 0.1s;
+  background-color: var(--bg-color-blue2);
+}
+
+.icon-blue2:hover {
+  background-color: #3385b5;
+}
+
+.icon-blue3 {
+  background-color: var(--bg-color-blue3);
+}
+
+.icon-blue3:hover {
+  background-color: #00adcb;
+}
+
+.circle-icon {
+  background: none;
+  border: none;
+  color: #172b4d;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #dfe1e6;
+  font-weight: bolder;
+}
+
+.icon:hover,
+.circle-icon:hover {
+  cursor: pointer;
+}

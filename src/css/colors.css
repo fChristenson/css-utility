@@ -3,9 +3,9 @@
 }
 
 .bg-color-blue2 {
-  background-color: #3d99ce;
+  background-color: var(--bg-color-blue2);
 }
 
 .bg-color-blue3 {
-  background-color: #00adcb;
+  background-color: var(--bg-color-blue3);
 }

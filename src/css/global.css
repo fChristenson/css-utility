@@ -5,3 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --bg-color-blue2: #3d99ce;
+  --bg-color-blue3: #00c2e0;
+}
