@@ -9,4 +9,12 @@
 :root {
   --bg-color-blue2: #3d99ce;
   --bg-color-blue3: #00c2e0;
+
+  --margin-md: 8px;
+  --margin-sm: 4px;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans,
+    Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
 }

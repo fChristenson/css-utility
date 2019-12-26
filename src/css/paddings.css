@@ -1,3 +1,31 @@
+.padding-md {
+  padding: var(--margin-md);
+}
+
 .padding-sm {
-  padding: 4px;
+  padding: var(--margin-sm);
+}
+
+.padding-top-md {
+  padding-top: var(--margin-md);
+}
+
+.padding-bottom-md {
+  padding-bottom: var(--margin-md);
+}
+
+.padding-left-md {
+  padding-left: var(--margin-md);
+}
+
+.padding-right-md {
+  padding-right: var(--margin-md);
+}
+
+.padding-height-md {
+  padding: var(--margin-md) 0;
+}
+
+.padding-width-md {
+  padding: 0 var(--margin-md);
 }
