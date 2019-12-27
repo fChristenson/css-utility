@@ -7,3 +7,8 @@
   max-height: 200px;
   overflow-y: auto;
 }
+
+.btn-add-card:hover {
+  background-color: rgba(9, 30, 66, 0.08);
+  color: #172b4d;
+}

@@ -7,7 +7,7 @@
     <title>Frello</title>
     <link rel="stylesheet" href="./dist/main.css" />
   </head>
-  <body>
+  <body class="flex flex-column min-height-full">
     <header class="bg-color-blue1 padding-sm flex flex-space-between">
       <div class="flex flex-align-center flex-space-between">
         <button class="icon icon-blue2 margin-right-sm">Home</button>
@@ -22,7 +22,7 @@
         </button>
       </div>
     </header>
-    <div class="bg-color-blue4">
+    <div class="bg-color-blue4 flex-grow">
       <header class="padding-md flex flex-space-between">
         <div class="flex flex-space-between flex-align-center">
           <h2 class="color-white padding-width-md font-size-l">brink</h2>
@@ -85,7 +85,11 @@
                 Do things
               </li>
             </ul>
-            <button class="btn margin-left-md">Add another card</button>
+            <button
+              class="btn margin-top-sm btn-add-card padding-height-sm padding-width-md"
+            >
+              Add another card
+            </button>
           </div>
         </div>
       </main>

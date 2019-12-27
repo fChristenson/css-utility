@@ -9,3 +9,11 @@
 .flex-space-between {
   justify-content: space-between;
 }
+
+.flex-column {
+  flex-flow: column;
+}
+
+.flex-grow {
+  flex: 1;
+}
