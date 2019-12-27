@@ -1,0 +1,9 @@
+.column {
+  width: 272px;
+  background-color: #ebecf0;
+}
+
+.column-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
