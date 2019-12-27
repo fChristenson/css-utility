@@ -1,3 +1,11 @@
 .margin-right-md {
+  margin-right: var(--margin-md);
+}
+
+.margin-right-sm {
   margin-right: var(--margin-sm);
+}
+
+.margin-width-md {
+  margin: 0 var(--margin-md);
 }
